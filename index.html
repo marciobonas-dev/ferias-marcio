@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  />
+
+  <title>Contagem regressiva para as férias</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: linear-gradient(
+        135deg,
+        #00a8cc,
+        #7bd389,
+        #ffe66d
+      );
+      font-family: Arial, Helvetica, sans-serif;
+      color: #073b4c;
+    }
+
+    .card {
+      width: min(880px, 100%);
+      padding: 40px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 24px;
+      box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(30px, 5vw, 56px);
+    }
+
+    .subtitulo {
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+
+    .contador {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .bloco {
+      padding: 20px 8px;
+    
